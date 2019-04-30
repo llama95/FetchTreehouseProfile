@@ -21,5 +21,6 @@ function view(templateName,values,response) {
 
     data = mergeValues(values,data);
     response.write(data);
+    // response.end();
 }
 module.exports.view = view;
